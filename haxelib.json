@@ -1,0 +1,16 @@
+{
+    "name": "sort",
+    "url" : "https://github.com/MaddinXx/hx-sort",
+    "license": "MIT",
+    "tags": ["sort", "algorithm", "array", "sorting", "ds"],
+    "description": "Sorting algorithms (http://sortvis.org/) ported to Haxe.",
+    "classPath": "src",
+    "dependencies": {
+        "lib": ""
+    },
+    "version": "0.0.0",
+    "releasenote": "Starting a new eta",
+    "contributors": [
+        "MaddinXx"
+    ]
+}
