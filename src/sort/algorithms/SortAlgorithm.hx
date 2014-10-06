@@ -48,7 +48,7 @@ class SortAlgorithm<T> // implements TSortAlgorithm
      * @param Int      x   the first index to swap
      * @param Int      y   the second index to swap
      */
-    public static #if HXSORT_INLINE inline #end function swap<G>(arr:Array<G>, x:Int, y:Int):Void
+    public static #if SORT_INLINE inline #end function swap<G>(arr:Array<G>, x:Int, y:Int):Void
     {
         var tmp:G = arr[x];
         arr[x]    = arr[y];

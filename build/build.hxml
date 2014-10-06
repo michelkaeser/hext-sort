@@ -8,7 +8,7 @@
 -cpp  bin/cpp
 -D    HXCPP_M64
 -D    HXCPP_NO_COLOUR
--D    HXSORT_INLINE
+-D    SORT_INLINE
 --macro mcover.MCover.coverage([''], ['src'])
 
 # C#
@@ -18,7 +18,7 @@
 -main sort/tests/Runner.hx
 -lib  lib
 -cs   bin/cs
--D    HXSORT_INLINE
+-D    SORT_INLINE
 
 # Java
 --next
@@ -27,7 +27,7 @@
 -main sort/tests/Runner.hx
 -lib  lib
 -java bin/java
--D    HXSORT_INLINE
+-D    SORT_INLINE
 
 # JS
 --next
@@ -36,7 +36,7 @@
 -main sort/tests/Runner.hx
 -lib  lib
 -js   bin/Runner.js
--D    HXSORT_INLINE
+-D    SORT_INLINE
 
 # Neko
 --next
@@ -45,7 +45,7 @@
 -main sort/tests/Runner.hx
 -lib  lib
 -neko bin/Runner.n
--D    HXSORT_INLINE
+-D    SORT_INLINE
 
 # SWF
 --next
@@ -54,7 +54,7 @@
 -main sort/tests/Runner.hx
 -lib  lib
 -swf  bin/Runner.swf
--D    HXSORT_INLINE
+-D    SORT_INLINE
 
 # PHP
 --next
@@ -63,4 +63,4 @@
 -main sort/tests/Runner.hx
 -lib  lib
 -php  bin/php
--D    HXSORT_INLINE
+-D    SORT_INLINE
