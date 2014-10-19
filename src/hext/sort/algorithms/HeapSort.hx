@@ -1,7 +1,7 @@
 package hext.sort.algorithms;
 
 import hext.sort.algorithms.SortAlgorithm;
-import hext.util.Comparator;
+import hext.utils.Comparator;
 
 /**
  * This class is an implementation of "Heap Sort" algorithm.
@@ -17,8 +17,8 @@ class HeapSort<T> extends SortAlgorithm<T>
     /**
      * Constructor to initialize a new HeapSort instance.
      *
-     * @param Array<T>                arr        the Array to sort
-     * @param hext.util.Comparator<T> comparator the Comparator to use
+     * @param Array<T>                 arr        the Array to sort
+     * @param hext.utils.Comparator<T> comparator the Comparator to use
      */
     private function new(arr:Array<T>, comparator:Comparator<T>):Void
     {

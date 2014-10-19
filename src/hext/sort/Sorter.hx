@@ -17,7 +17,7 @@ import hext.sort.algorithms.ShellSort;
 import hext.sort.algorithms.StoogeSort;
 import hext.sort.algorithms.SwapSort;
 import hext.sort.algorithms.TSortAlgorithm;
-import hext.util.Comparator;
+import hext.utils.Comparator;
 
 /**
  * Generic wrapper class around the various sorting algorithm implementations.
@@ -36,7 +36,7 @@ class Sorter<T>
     /**
      * Stores the Comparator used to compare items in the Array.
      *
-     * @var hext.util.Comparator<T>
+     * @var hext.utils.Comparator<T>
      */
     private var comparator:Comparator<T>;
 
@@ -45,7 +45,7 @@ class Sorter<T>
      * Constructor to initialize a new Sorter.
      *
      * @param hext.sort.SortAlgorithm algorithm  the algorithm to use
-     * @param hext.util.Comparator    comparator the comparator to use
+     * @param hext.utils.Comparator   comparator the comparator to use
      */
     public function new(algorithm:SortAlgorithm, comparator:Comparator<T>):Void
     {

@@ -1,6 +1,6 @@
 package hext.sort.algorithms;
 
-import hext.util.Comparator;
+import hext.utils.Comparator;
 
 /**
  * The SortAlgorithm typedef defines the public API one sort algorithm
@@ -20,8 +20,8 @@ typedef TSortAlgorithm =
      * doesn't need to be passed between each recursive call. It is recommended to
      * extend sort.algorithms.SortAlgorithm in that case.
      *
-     * @param Null<Array<T>>          arr        the Array to sort
-     * @param hext.util.Comparator<T> comparator the Comparator to use
+     * @param Null<Array<T>>           arr        the Array to sort
+     * @param hext.utils.Comparator<T> comparator the Comparator to use
      */
     function sort<T>(arr:Null<Array<T>>, comparator:Comparator<T>):Void;
 }

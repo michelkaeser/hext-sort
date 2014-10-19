@@ -1,6 +1,6 @@
 package hext.sort.algorithms;
 
-import hext.util.Comparator;
+import hext.utils.Comparator;
 
 /**
  * This class is an implementation of "Insertion Sort" algorithm.

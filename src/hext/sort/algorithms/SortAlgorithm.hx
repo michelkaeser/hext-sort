@@ -1,7 +1,7 @@
 package hext.sort.algorithms;
 
 import hext.sort.algorithms.TSortAlgorithm;
-import hext.util.Comparator;
+import hext.utils.Comparator;
 
 /**
  * Abstract sorting algorithm base class to be extended by
@@ -24,7 +24,7 @@ class SortAlgorithm<T> // implements TSortAlgorithm
     /**
      * Stores the Comparator used to compare the Array items.
      *
-     * @var hext.util.Comparator<T>
+     * @var hext.utils.Comparator<T>
      */
     private var comparator:Comparator<T>;
 
@@ -32,8 +32,8 @@ class SortAlgorithm<T> // implements TSortAlgorithm
     /**
      * Constructor to initialize a new AbstractAlgorihm instance.
      *
-     * @param Array<T>                arr        the Array to sort
-     * @param hext.util.Comparator<T> comparator the Comparator to use
+     * @param Array<T>                 arr        the Array to sort
+     * @param hext.utils.Comparator<T> comparator the Comparator to use
      */
     private function new(arr:Array<T>, comparator:Comparator<T>):Void
     {

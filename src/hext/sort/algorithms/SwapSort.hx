@@ -1,7 +1,7 @@
 package hext.sort.algorithms;
 
 import hext.sort.algorithms.SortAlgorithm;
-import hext.util.Comparator;
+import hext.utils.Comparator;
 
 /**
  * This class is an implementation of "Selection Sort" algorithm.
@@ -23,8 +23,8 @@ class SwapSort
     /**
      * Sorts the given Array by using the passed Comparator to compare the items.
      *
-     * @param Array<T>                arr        the Array to sort
-     * @param hext.util.Comparator<T> comparator the Comparator to use
+     * @param Array<T>                 arr        the Array to sort
+     * @param hext.utils.Comparator<T> comparator the Comparator to use
      */
     private static function internalSort<T>(arr:Array<T>, comparator:Comparator<T>):Void
     {

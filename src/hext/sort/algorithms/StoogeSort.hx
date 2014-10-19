@@ -1,7 +1,7 @@
 package hext.sort.algorithms;
 
 import hext.sort.algorithms.SortAlgorithm;
-import hext.util.Comparator;
+import hext.utils.Comparator;
 
 /**
  * This class is an implementation of "Stoge Sort" algorithm.
