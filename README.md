@@ -1,12 +1,10 @@
-# hx-sort
+# hext-sort
 
 > Sorting algorithms (http://sortvis.org/) ported to Haxe.
 
 ## Compilation Flags
 
-`-D SORT_INLINE`
-
-Inlines the static `swap()` function of `sort.algorithms.SortAlgorithm`. This can lead to better performance on various platforms, but generates larger output.
+`-D HEXT_SORT_INLINE` Inlines the `swap()` function of `hext.sort.algorithms.SortAlgorithm`. This can lead to better performance on various platforms, but generates larger output.
 
 ## Nullability
 

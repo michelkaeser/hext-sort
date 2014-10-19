@@ -1,15 +1,15 @@
 {
-    "name": "sort",
-    "url" : "https://github.com/MaddinXx/hx-sort",
+    "name": "hext-sort",
+    "url" : "",
     "license": "MIT",
     "tags": ["sort", "algorithm", "array", "sorting", "ds"],
     "description": "Sorting algorithms (http://sortvis.org/) ported to Haxe.",
     "classPath": "src",
     "dependencies": {
-        "lib": ""
+        "hext-core": ""
     },
     "version": "0.0.0",
-    "releasenote": "Starting a new eta",
+    "releasenote": "",
     "contributors": [
         "MaddinXx"
     ]

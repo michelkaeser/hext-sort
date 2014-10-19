@@ -2,65 +2,65 @@
 --next
 -cp   src
 -cp   tests
--main sort/tests/Runner.hx
--lib  lib
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
 -lib  mcover
 -cpp  bin/cpp
 -D    HXCPP_M64
 -D    HXCPP_NO_COLOUR
--D    SORT_INLINE
+-D    HEXT_SORT_INLINE
 --macro mcover.MCover.coverage([''], ['src'])
 
 # C#
 --next
 -cp   src
 -cp   tests
--main sort/tests/Runner.hx
--lib  lib
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
 -cs   bin/cs
--D    SORT_INLINE
+-D    HEXT_SORT_INLINE
 
 # Java
 --next
 -cp   src
 -cp   tests
--main sort/tests/Runner.hx
--lib  lib
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
 -java bin/java
--D    SORT_INLINE
+-D    HEXT_SORT_INLINE
 
 # JS
 --next
 -cp   src
 -cp   tests
--main sort/tests/Runner.hx
--lib  lib
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
 -js   bin/Runner.js
--D    SORT_INLINE
+-D    HEXT_SORT_INLINE
 
 # Neko
 --next
 -cp   src
 -cp   tests
--main sort/tests/Runner.hx
--lib  lib
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
 -neko bin/Runner.n
--D    SORT_INLINE
+-D    HEXT_SORT_INLINE
 
 # SWF
 --next
 -cp   src
 -cp   tests
--main sort/tests/Runner.hx
--lib  lib
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
 -swf  bin/Runner.swf
--D    SORT_INLINE
+-D    HEXT_SORT_INLINE
 
 # PHP
 --next
 -cp   src
 -cp   tests
--main sort/tests/Runner.hx
--lib  lib
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
 -php  bin/php
--D    SORT_INLINE
+-D    HEXT_SORT_INLINE
