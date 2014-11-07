@@ -26,8 +26,8 @@ class CocktailSort
      */
     private static function internalSort<T>(arr:Array<T>, comparator:Comparator<T>):Void
     {
-        var start:Int = 0;
-        var end:Int   = arr.length - 1;
+        var start:Int     = 0;
+        var end:Int       = arr.length - 1;
         var finished:Bool = false;
         while (!finished) {
             finished = true;

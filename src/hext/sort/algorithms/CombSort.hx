@@ -26,11 +26,10 @@ class CombSort
      */
     private static function internalSort<T>(arr:Array<T>, comparator:Comparator<T>):Void
     {
-        var gap:Int    = arr.length;
-        var swaps:Bool = false;
+        var gap:Int = arr.length;
         while (true) {
-            gap   = Std.int(gap / 1.25);
-            swaps = false;
+            var swaps:Bool = false;
+            gap = Std.int(gap / 1.25);
             for (i in 0...arr.length - gap) {
                 if (comparator(arr[i], arr[i + gap]) > 0) {
                     SortAlgorithm.swap(arr, i, i + gap);
