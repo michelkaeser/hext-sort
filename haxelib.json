@@ -1,0 +1,16 @@
+{
+    "name": "hext-sort",
+    "url" : "https://github.com/michelkaeser/hext-sort",
+    "license": "MIT",
+    "tags": ["sort", "algorithm", "array", "sorting", "ds"],
+    "description": "Sorting algorithms (http://sortvis.org/) ported to Haxe.",
+    "classPath": "src",
+    "dependencies": {
+        "hext-core": "1.0.0-alpha"
+    },
+    "version": "1.0.0-alpha",
+    "releasenote": "First haxelib release.",
+    "contributors": [
+        "MaddinXx"
+    ]
+}

@@ -1,0 +1,66 @@
+# C++
+--next
+-cp   src
+-cp   tests
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
+-lib  mcover
+-cpp  bin/cpp
+-D    HXCPP_M64
+-D    HXCPP_NO_COLOUR
+-D    HEXT_SORT_INLINE
+--macro mcover.MCover.coverage([''], ['src'])
+
+# C#
+--next
+-cp   src
+-cp   tests
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
+-cs   bin/cs
+-D    HEXT_SORT_INLINE
+
+# Java
+--next
+-cp   src
+-cp   tests
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
+-java bin/java
+-D    HEXT_SORT_INLINE
+
+# JS
+--next
+-cp   src
+-cp   tests
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
+-js   bin/Runner.js
+-D    HEXT_SORT_INLINE
+
+# Neko
+--next
+-cp   src
+-cp   tests
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
+-neko bin/Runner.n
+-D    HEXT_SORT_INLINE
+
+# SWF
+--next
+-cp   src
+-cp   tests
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
+-swf  bin/Runner.swf
+-D    HEXT_SORT_INLINE
+
+# PHP
+--next
+-cp   src
+-cp   tests
+-main hext/sort/tests/Runner.hx
+-lib  hext-core
+-php  bin/php
+-D    HEXT_SORT_INLINE
